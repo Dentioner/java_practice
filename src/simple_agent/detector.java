@@ -10,10 +10,11 @@ public class detector
             return false;
     }
 
-    public void show_condition(environment e)
+    public void show_condition(environment e, robot_moving bot)
     {
         int a = 0;
-        System.out.println("room size : "+ e.rooms.get(0).shape);
+        System.out.println("robot point: " + bot.index);
+        System.out.println("room size: "+ e.rooms.get(0).shape);
         System.out.println("rooms condition:");
         for(room r : e.rooms)
         {
