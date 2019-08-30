@@ -6,7 +6,7 @@ public class robot_driver
 
     public static void main(String[] args)
     {
-        environment en = new environment(4);
+        environment en = new environment(3);
         actuator a = new actuator(en);
         detector d = new detector();
         robot_moving robot = new robot_moving(en);
@@ -24,13 +24,17 @@ public class robot_driver
             }
             robot = a.move(en.room_size -1, robot);
             robot.score -= 1;
-            if(robot.right)
+
+            if(!robot.stop)
             {
-                System.out.println("Right");
-            }
-            else
-            {
-                System.out.println("Left");
+                if(robot.right)
+                {
+                    System.out.println("Right");
+                }
+                else
+                {
+                    System.out.println("Left");
+                }
             }
         }
 
