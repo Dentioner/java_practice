@@ -4,7 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/src/simple_agent/robot_driver.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a71f24b1-9361-4b6c-9e47-8d3d7c78b74d" name="Default Changelist" comment="" />
+    <list default="true" id="a71f24b1-9361-4b6c-9e47-8d3d7c78b74d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hello_java/animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hello_java/animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hello_java/cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hello_java/cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hello_java/dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hello_java/dog.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +48,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test_hw1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
+            <state relative-caret-position="33">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#136#137#0" expanded="true" />
                 <element signature="e#183#184#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TestAnimalDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding>
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#965#966#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,7 +87,6 @@
               <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#164#170#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/simple_agent/actuator.java" />
         <option value="$PROJECT_DIR$/src/simple_agent/robot_driver.java" />
         <option value="$PROJECT_DIR$/src/test_hw1.java" />
+        <option value="$PROJECT_DIR$/src/TestAnimalDemo.java" />
       </list>
     </option>
   </component>
@@ -145,6 +169,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,9 +194,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Course" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,16 +215,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test_hw1">
-    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestMap" />
+  <component name="RunManager" selected="Application.TestAnimalDemo">
+    <configuration name="TestAnimalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestAnimalDemo" />
       <module name="hello_java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestTree" />
+    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestMap" />
       <module name="hello_java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -235,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAnimalDemo" />
         <item itemvalue="Application.test_hw1" />
         <item itemvalue="Application.robot_driver" />
         <item itemvalue="Application.test_generics1" />
         <item itemvalue="Application.TestMap" />
-        <item itemvalue="Application.TestTree" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +283,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.308311" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.31233245" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.30428955" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -405,6 +429,18 @@
           <line>41</line>
           <properties />
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestAnimalDemo.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestAnimalDemo.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test_hw1.java</url>
@@ -701,17 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simple_agent/environment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#164#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/simple_agent/robot_driver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -719,13 +744,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_agent/environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test_hw1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
+        <state relative-caret-position="33">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#136#137#0" expanded="true" />
             <element signature="e#183#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestAnimalDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
           </folding>
         </state>
       </provider>
