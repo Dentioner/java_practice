@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/simple_agent/robot_driver.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a71f24b1-9361-4b6c-9e47-8d3d7c78b74d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hello_java/Reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hello_java/Reverse.class" afterDir="false" />
-    </list>
+    <list default="true" id="a71f24b1-9361-4b6c-9e47-8d3d7c78b74d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="34" column="1" lean-forward="true" selection-start-line="5" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="600">
+              <caret line="34" column="1" selection-start-line="5" selection-end-line="34" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,7 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,8 +222,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Course" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,8 +307,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.33914208" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.34383377" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.30428955" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -844,8 +842,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="5" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="600">
+          <caret line="34" column="1" selection-start-line="5" selection-end-line="34" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
