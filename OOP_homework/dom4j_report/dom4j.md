@@ -8,27 +8,27 @@ XML是可扩展的，因此用户可以创建自己的适合应用程序的自�
 
 下面先从一个html格式的网页说起
 
-![image-20191031210013642](C:\Users\Dentioner\AppData\Roaming\Typora\typora-user-images\image-20191031210013642.png)
+![avatar](./pic/1.png)
 
 上图是我在软件工程课上面用ruby on rails写的一个hello_world的页面，如上图所示。如果使用F12去审查此页面的元素就可以得到如下的结果：
 
-<img src="C:\Users\Dentioner\AppData\Roaming\Typora\typora-user-images\image-20191031210146270.png" alt="image-20191031210146270" style="zoom:150%;" />
+<img src="./pic/2.png" alt="avatar" style="zoom:150%;" />
 
 这个就是HTML的格式。可以看到这个结构类似于一个对象，”对象“名叫html，具有head和body的属性，这里由于是空页面，因此head为空，而body就是很简单的hello，world文字。如果改成UML类图的话，就类似于：
 
-![image-20191031210644931](C:\Users\Dentioner\AppData\Roaming\Typora\typora-user-images\image-20191031210644931.png)
+![avatar](./pic/3.png)
 
 我的这个hello world 页面就是html类的一个实例，head为空字符，body为字符串”hello，world“
 
 将这个结构如果绘制成节点的形式，就是这样的：
 
-<img src="C:\Users\Dentioner\AppData\Roaming\Typora\typora-user-images\image-20191102092442539.png" alt="image-20191102092442539" style="zoom: 80%;" />
+![avatar](./pic/4.png)
 
 上面的树状结构表现了“属性”和“类”之间的结构关系。基于这样的关系，我们把html叫做此HTML文件的根元素
 
 一个XML格式的文件和上面的类似，比如说如下：
 
-![image-20191031214616719](C:\Users\Dentioner\AppData\Roaming\Typora\typora-user-images\image-20191031214616719.png)
+![avatar](./pic/5.png)
 
 如上的代码中创建了2个“课程”类的实例，实例的属性包括课程名称以及授课老师2项，根元素为classes。对于XML格式来说，一个XML文件只能有1个根元素
 
@@ -91,7 +91,7 @@ public class d4jdriver
 
 上面的代码的步骤就是，首先导入对应的包以完成相应操作。然后在main函数里面先实例化一个SAXReader（此类即为dom4j包里面的一个类），然后读取xml文件，将文件转化为Document类型，然后读取document类型里面的根目录（本例里面即为classes)，然后根据根目录将里面的元素转化为list，最后用循环的方式打印list里面的各个元素。打印出的结果如下所示：
 
-<img src="C:\Users\Dentioner\AppData\Roaming\Typora\typora-user-images\image-20191031215319953.png" alt="image-20191031215319953" style="zoom: 50%;" />
+<img src="./pic/6.png" alt="avatar" style="zoom:67%;" />
 
 以上就是使用dom4j对一个简单的xml格式文件的解析过程
 
@@ -237,7 +237,7 @@ public class d4jdriver
 
 对于上述用例的类的抽取，根据dom4j官方给出的示例代码里面已经能够看到涉及的类了，分别是`SAXReader`, `Document`, `Element`,  `Node`等。从4类用例的示例代码中提取出的结构用UML表示如下所示：
 
-![image-20191102160428852](C:\Users\Dentioner\AppData\Roaming\Typora\typora-user-images\image-20191102160428852.png)
+![avatar](./pic/7.png)
 
 对于代码中另外的一些类，有的是java里面别的通用的包里面调用的，有的虽然属于dom4j.jar，但是我认为不是分析的重点，就没有列举了。
 
@@ -249,7 +249,7 @@ public class d4jdriver
 
 ##### 使用Intellij Idea的绘图工具展示UML图
 
-![avatar](./d4jstructure.png)
+![avatar](./pic/d4jstructure.png)
 
 通过idea的工具可以绘制出这些类型之间的关系，如上图所示，可以看到Element和Document属于Node的子节点，其余的几个类之间没有相互关联。最细的虚线是注解关系，例如在DocumentHelper的定义文件最上面有一行
 
@@ -270,7 +270,7 @@ public final class DocumentHelper {
 
 借助idea对SAXReader此类的结构进行进一步解析：
 
-<img src="C:\Users\Dentioner\AppData\Roaming\Typora\typora-user-images\image-20191102164036489.png" alt="image-20191102164036489" style="zoom: 80%;" />
+![avatar](./pic/8.png)
 
 可以看到它的read方法重载了8次，分别对应了8种可能的输入类型，返回值均为Document类，其中dom4j官方给的示例里面使用的是读取本地文件的read函数，也就是`read(File): Document`
 
@@ -289,7 +289,7 @@ public Document read(File file) throws DocumentException {
 
 由于本阶段的分析不是分析核心源码，因此用一张流程图来描述一下read函数的正常的执行过程
 
-<img src="1.png" alt="avatar" style="zoom: 80%;" />
+<img src="./pic/9.png" alt="avatar" style="zoom:67%;" />
 
 首先，从文件类型file中读取文件数据，这里使用到了InputSource这个类。根据`saxproject.org`给出的定义，InputSource类允许SAX应用程序在单个对象中封装有关输入源的信息， 解析器将使用InputSource对象来确定如何读取XML输入。
 
@@ -368,29 +368,29 @@ public Document read(InputSource in) throws DocumentException {
 
 ###### 把路径写错：
 
-![image-20191102213442214](C:\Users\Dentioner\AppData\Roaming\Typora\typora-user-images\image-20191102213442214.png)
+![avatar](./pic/10.png)
 
 这时候程序会向控制台输出这样的信息，提示找不到文件。	
 
 ###### 如果将路径中的分隔符进行混搭：
 
-<img src="C:\Users\Dentioner\AppData\Roaming\Typora\typora-user-images\image-20191102213550093.png" alt="image-20191102213550093" style="zoom:67%;" />
+![avatar](./pic/11.png)
 
-<img src="C:\Users\Dentioner\AppData\Roaming\Typora\typora-user-images\image-20191102213605397.png" alt="image-20191102213605397" style="zoom: 67%;" />
+<img src="./pic/12.png" alt="avatar" style="zoom:67%;" />
 
 程序能够正常解析完毕，这是多亏了刚才分析SAXReader的时候实现的分隔符处理操作；
 
 ###### 如果故意将XML文件写得不符合格式规定：
 
-![image-20191102213820682](C:\Users\Dentioner\AppData\Roaming\Typora\typora-user-images\image-20191102213820682.png)
+![avatar](./pic/13.png)
 
-![image-20191102213843311](C:\Users\Dentioner\AppData\Roaming\Typora\typora-user-images\image-20191102213843311.png)
+![avatar](./pic/14.png)
 
 可以看到在SAXReader安装了各种模块之后都能够检测得到，采取的方式都是终止报错，注意到在报错信息中含有语法提示，比如说错误在哪一行，这正是read(InputSource)抛出的那个带有行信息的例外传递到了控制台。
 
 ###### 如果在创建XML的时候没有任何输入：
 
-<img src="C:\Users\Dentioner\AppData\Roaming\Typora\typora-user-images\image-20191102214237402.png" alt="image-20191102214237402" style="zoom:67%;" />
+<img src="./pic/16.png" alt="avatar" style="zoom:67%;" />
 
 这时候控制台输出的XML文件将文件头给补齐了，但是实际上这个地方真的要挑刺的话可以认为没有根元素，创建的XML文件还是有点问题，解决方案是可以帮用户补齐一个空的根元素，比如说
 
@@ -401,7 +401,7 @@ public Document read(InputSource in) throws DocumentException {
 
 ###### 如果在修改XML的时候没有任何输入：
 
-![image-20191102214735297](C:\Users\Dentioner\AppData\Roaming\Typora\typora-user-images\image-20191102214735297.png)
+![avatar](./pic/15.png)
 
 同样的，dom4j采用的方式是抛出例外，终止程序，控制台显示出错误类型。
 
