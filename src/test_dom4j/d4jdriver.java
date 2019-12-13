@@ -21,10 +21,10 @@ public class d4jdriver
 
     public static void main(String[] args)
     {
-        //readall();
+        readall();
         //query();
         //createxml();
-        modify();
+        //modify();
     }
 
 
