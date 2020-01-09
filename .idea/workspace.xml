@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a71f24b1-9361-4b6c-9e47-8d3d7c78b74d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hello_java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hello_java/dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hello_java/dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hello_java/test_dom4j/d4jdriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hello_java/test_dom4j/d4jdriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hello_java/test_dom4j/test1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hello_java/test_dom4j/test1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_dom4j/d4jdriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_dom4j/d4jdriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_dom4j/test1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_dom4j/test1.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dom4j_source_code/dom4j-version-2.1.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.observer_driver">
+  <component name="RunManager" selected="Application.d4jdriver">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="others.Driver" />
       <module name="hello_java" />
@@ -139,10 +133,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.d4jdriver" />
         <item itemvalue="Application.observer_driver" />
         <item itemvalue="Application.SimpleExample" />
         <item itemvalue="Application.cglib_driver" />
-        <item itemvalue="Application.d4jdriver" />
         <item itemvalue="Application.Driver" />
       </list>
     </recent_temporary>
@@ -168,6 +162,10 @@
       <workItem from="1576109697440" duration="2207000" />
       <workItem from="1576231601116" duration="6402000" />
       <workItem from="1576246627565" duration="986000" />
+      <workItem from="1577886030337" duration="5000" />
+      <workItem from="1578070559643" duration="649000" />
+      <workItem from="1578571181929" duration="298000" />
+      <workItem from="1578577657682" duration="4563000" />
     </task>
     <servers />
   </component>
@@ -296,7 +294,12 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$PROJECT_DIR$/../dom4j-2.1.1.jar!/org/dom4j/io/SAXReader.class</url>
           <line>202</line>
-          <option name="timeStamp" value="24" />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../dom4j-2.1.1.jar!/org/dom4j/io/SAXContentHandler.class</url>
+          <line>159</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test_hw1.java</url>
@@ -311,6 +314,7 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="en.rooms" />
+        <watch expression="document" />
       </configuration>
     </watches-manager>
   </component>
