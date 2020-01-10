@@ -34,7 +34,7 @@ public class d4jdriver
         try {
             File inputFile = new File(path);
             SAXReader reader = new SAXReader();
-            Document document = reader.read( inputFile );
+                Document document = reader.read( inputFile );
 
             System.out.println("Root element :" + document.getRootElement().getName());
 
