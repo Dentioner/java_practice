@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a71f24b1-9361-4b6c-9e47-8d3d7c78b74d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_dom4j/d4jdriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_dom4j/d4jdriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hello_java.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,10 +34,14 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../apache-jena-3.13.1/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FlyDriver">
+  <component name="RunManager" selected="Application.jena_driver">
     <configuration name="FlyDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test_flyweight.FlyDriver" />
       <module name="hello_java" />
@@ -94,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cglib_driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test_cglib.cglib_driver" />
+    <configuration name="d4jdriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test_dom4j.d4jdriver" />
       <module name="hello_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test_cglib.*" />
+          <option name="PATTERN" value="test_dom4j.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="d4jdriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test_dom4j.d4jdriver" />
+    <configuration name="jena_driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testjena.jena_driver" />
       <module name="hello_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test_dom4j.*" />
+          <option name="PATTERN" value="testjena.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.jena_driver" />
         <item itemvalue="Application.FlyDriver" />
         <item itemvalue="Application.d4jdriver" />
         <item itemvalue="Application.observer_driver" />
         <item itemvalue="Application.SimpleExample" />
-        <item itemvalue="Application.cglib_driver" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +174,7 @@
       <workItem from="1578577657682" duration="4572000" />
       <workItem from="1578615923685" duration="14000" />
       <workItem from="1578658027208" duration="4200000" />
+      <workItem from="1578709684963" duration="2525000" />
     </task>
     <servers />
   </component>
@@ -304,6 +309,11 @@
           <url>jar://$PROJECT_DIR$/../dom4j-2.1.1.jar!/org/dom4j/io/SAXContentHandler.class</url>
           <line>159</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testjena/jena_driver.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test_hw1.java</url>
